@@ -1,0 +1,85 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.counter span {
+    font-size: 16px;
+}
+
+.button {
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+    background: #DE1714;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.button:disabled:hover {
+    background: #ccc;
+}
+
+.button:hover {
+    background: #A61103;
+    transition: 0.3s;
+}
+
+.remove {
+    font-size: 16px;
+    color: #DE1714;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #DE1714;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.remove:hover {
+    background: #DE1714;
+    color: #fff;
+    transition: 0.3s;
+}

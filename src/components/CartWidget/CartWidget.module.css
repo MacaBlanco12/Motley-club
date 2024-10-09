@@ -1,0 +1,26 @@
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 45px;
+    cursor: pointer;
+}
+
+.qtyContainer {
+    width: 35px;
+    height: 35px;
+    background: #DE1714;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.qty {
+    color: #FDD34D;
+    line-height: 1;
+}
